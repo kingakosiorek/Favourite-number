@@ -1,0 +1,11 @@
+favourite_number = 7
+try:
+  guess = int(input('Enter a guess: '))
+except:
+  print('Put a valid number.')
+if guess > favourite_number:
+  print('Guess was too high.')
+elif guess < favourite_number:
+  print('Guess was too low.')
+else:
+  print('Good guess!')
